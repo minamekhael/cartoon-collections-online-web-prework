@@ -15,4 +15,3 @@ def long_planeteer_calls(calls)
   else 
     puts false
   end
-end
