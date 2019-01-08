@@ -5,6 +5,7 @@ end
 end
 
 def summon_captain_planet(planeteer_calls)
+  planeteer_calls = ["apple", "banana", "orange"]
   planeteer_calls.each {|n| puts n.capitalize + "!"}
 end
 
