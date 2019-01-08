@@ -5,7 +5,7 @@ end
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.each do {|n| n.capitalize + "!"}
+  planeteer_calls.each do {|n| puts n.capitalize + "!"}
 end
 end
 
