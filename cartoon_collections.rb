@@ -5,7 +5,7 @@ end
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.split.collect{|i| + i.upcase}
+  planeteer_calls.collect{|i| + i.upcase}
 end
 
 def long_planeteer_calls# code an argument here
