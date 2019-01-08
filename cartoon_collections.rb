@@ -14,6 +14,8 @@ def long_planeteer_calls(calls)
     return true
   elsif n.length < n.length[4]
     return false
+  else 
+    return false
   end
 end
 end
