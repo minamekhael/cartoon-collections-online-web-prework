@@ -4,7 +4,7 @@ def roll_call_dwarves(array)
 end
 end
 
-def summon_captain_planet(veggies)
+def summon_captain_planet(array)
   veggies.each {|n| puts n.capitalize + "!"}
 end
 
