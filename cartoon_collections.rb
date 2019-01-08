@@ -11,9 +11,11 @@ end
 def long_planeteer_calls(calls)
   calls.each do |n|
   if n.length > 4
-    puts true
+    puts 
+    true
   else 
-    puts false
+    puts 
+    false
   end
 end
 end
