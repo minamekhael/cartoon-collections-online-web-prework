@@ -17,5 +17,6 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(cheese)
- if cheese.any? {|i| i = "cheddar"
+ if cheese.any? {|i| i = "cheddar", "gouda", "cambert"}
+   return
 end
