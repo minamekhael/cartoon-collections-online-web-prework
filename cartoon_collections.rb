@@ -5,8 +5,7 @@ end
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.each do |i|
-    i.collect{
+  planeteer_calls.collect{|i| 
 end
 end
 
